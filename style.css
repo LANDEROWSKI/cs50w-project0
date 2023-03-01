@@ -26,7 +26,7 @@
 }
 
 body {
-    background-image: linear-gradient( 170deg, rgba(52, 48, 48, 0.892), rgb(63, 28, 67)), url(https://c4.wallpaperflare.com/wallpaper/682/554/545/anime-jojo-s-bizarre-adventure-josuke-higashikata-wallpaper-preview.jpg);
+    background-image: linear-gradient( 500deg, rgba(33, 33, 33, 0.892), rgb(148, 108, 124)), url(./recursos/wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
