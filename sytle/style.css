@@ -1,0 +1,119 @@
+#txt-bienvenida {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+#txt-bienvenida:hover {
+  color: darkmagenta;
+}
+
+#txt-bienvenida::before {
+  content: "Bienvenid@ ";
+}
+
+.homep #uwu-img {
+  width: 150px;
+}
+
+.dropdown {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+body {
+  opacity: 90%;
+  background-image: linear-gradient(180deg, rgba(33, 33, 33, 0.892), rgb(136, 148, 108)), url(./recursos/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.titulo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#jojo-gif {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.figura {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.recuadro {
+  opacity: 60%;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.945), rgb(0, 0, 0)), black;
+  width: 50vw;
+  height: 40vh;
+  border-style: inset;
+  border-radius: 20px;
+}
+
+#pokemon-edit {
+  margin-bottom: 200px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 578px) {
+  .figura {
+    flex-direction: column;
+  }
+  #jojo-gif {
+    width: 280px;
+    height: 180px;
+    border-radius: 20px;
+  }
+  .recuadro {
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 10px;
+  }
+  .titulo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #uwu-img {
+    width: 10px;
+    height: 40px;
+  }
+}/*# sourceMappingURL=hola.css.map */
