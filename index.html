@@ -5,31 +5,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <link rel="stylesheet" href="./sytle/style.css" />
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet" />
+    <!--Icono de pagina-->
+    <link rel="icon" type="image/x-icon" href="./recursos/bocchi.png">
     <title>PROJECT0</title>
 </head>
 <!--Barra de Navegacion entre HTML'S-->
 
 <body>
+    <!--Barra de Navegacion-->
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand" href="#">Erick Joestar</a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="animes.html" rel="noopener noreferrer">Animes</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="juegos.html">Video Games</a>
+                        <a class="nav-link" aria-current="page" href="animes.html" rel="noopener noreferrer">Animes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="juegos.html">Video Games</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="cv.html">Acerca de mi persona</a>
@@ -39,46 +44,32 @@
         </div>
     </nav>
 
-    <div class="homep">
-        <div class="titulo">
-            <div class="p1">
+    <!--Section que incluye titulo de Bienvenida y img de Discord-->
+    <section class="hero align-items-stretch">
+        <div class="homep hero-principal d-flex flex-column justify-content-center align-items-center">
+            <div class="titulo">
                 <h1 id="txt-bienvenida">a mi PROJECT0</h1>
+                <img class="rounded-circle img-fluid" id="uwu-img" src="./recursos/discord.gif" alt="uwu" />
+            </div>
+        </div>
 
-                <div class="p2">
-                    <img id="uwu-img" src="https://cs50.gallerycdn.vsassets.io/extensions/cs50/ddb50/1.1.0/1675575510004/Microsoft.VisualStudio.Services.Icons.Default" alt="uwu" />
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img class="gif" src="./sytle/Fortnite.gif" alt="Fortnite-Dance" />
+                </div>
+                <div class="col">
+                    <img class="gif" src="/sytle/sus-dance.gif" atl="sus" />
+
                 </div>
             </div>
         </div>
 
-        <div class="dropdown" id="lista-cosas">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Qué encontrarás en esta página?
-        </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Pequeña Biografía</a></li>
-                <li>
-                    <a class="dropdown-item" href="#">Lista de animes favoritos</a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="#">Mis Video Juegos Favoritos</a>
-                </li>
-                <li><a class="dropdown-item" href="#">Acerda mi persona</a></li>
-                <li>
-                    <hr class="dropdown-divider" />
-                </li>
-            </ul>
-        </div>
+    </section>
 
-        <div class="figura">
-            <div class="recuadro">
-                <img id="pokemon-edit" src="./sytle/Fortnite.gif" alt="Fortnite-Dance" />
-            </div>
-            <div class="image">
-                <img id="jojo-gif" src="/sytle/sus-dance.gif" atl="sus" />
-            </div>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

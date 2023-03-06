@@ -1,35 +1,3 @@
-#lista-cosas {
-    opacity: 70%;
-}
-
-#txt-bienvenida {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    margin-top: 25px;
-    font-weight: bold;
-    color: darkslateblue;
-}
-
-#txt-bienvenida:hover {
-    color: darkmagenta;
-}
-
-#txt-bienvenida::before {
-    content: "Bienvenid@ ";
-}
-
-.homep #uwu-img {
-    opacity: 60%;
-    width: 150px;
-}
-
-.dropdown {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-}
-
 body {
     background-image: linear-gradient( 120deg, rgba(53, 51, 49, 0.892), #84db1355), url("wallpaper.jpg");
     //background-image: url("wallpaper.jpg");
@@ -38,11 +6,35 @@ body {
     background-attachment: fixed;
     background-position: center center;
 }
+.hero-principal {
+    padding: 3rem;
+}
 
-.main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+#uwu-img{
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+}
+
+.homep #uwu-img {
+    opacity: 90%;
+}
+
+#txt-bienvenida {
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(4, 188, 255);
+}
+
+#txt-bienvenida:hover {
+    color: rgb(120, 255, 2);
+}
+
+#txt-bienvenida:before {
+    content: "Bienvenid@ ";
 }
 
 .titulo {
@@ -54,10 +46,10 @@ body {
     flex-direction: column;
 }
 
-.p2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gif{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
 }
 
 .image {
@@ -65,46 +57,27 @@ body {
     margin-right: 2%;
 }
 
-#jojo-gif {
-    opacity: 70%;
-    width: 300px;
-    height: 250px;
-    border-radius: 20px;
-}
 
-.figura {
+.container{
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
+    margin: 4px;
 }
 
-.recuadro {
-    opacity: 70%;
-    //background: linear-gradient(360deg, rgba(0, 0, 0, 0.945), rgb(0, 0, 0)), black;
-    width: 30vw;
-    height: 40vh;
-    border-style: inset;
-    border-radius: 20px;
-}
 
-#pokemon-edit {
-    margin-bottom: 200px;
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-}
-
-@media (max-width: 578px) {
+@media (max-width: 700px) {
+    #txt-bienvenida{
+        font-size: 3.5rem;
+    }
+    .gif {
+        width: 150px;
+        height: 140px;
+    }
     .figura {
         flex-direction: column;
-    }
-    #jojo-gif {
-        width: 280px;
-        height: 180px;
-        border-radius: 20px;
-    }
+    }  
     .recuadro {
         width: 80vw;
         height: 25vh;
@@ -118,8 +91,5 @@ body {
         align-items: center;
         flex-direction: column;
     }
-    #uwu-img {
-        width: 90px;
-        height: 70px;
-    }
+    
 }
