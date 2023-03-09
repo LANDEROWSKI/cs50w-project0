@@ -10,6 +10,7 @@ body {
     padding: 3rem;
 }
 
+/*Imagen del discord*/
 #uwu-img{
     width: 200px;
     height: 200px;
@@ -20,6 +21,7 @@ body {
     opacity: 90%;
 }
 
+/*Texto que cambia de color al pasar el cursor*/
 #txt-bienvenida {
     text-align: center;
     font-size: 5rem;
@@ -46,21 +48,25 @@ body {
     flex-direction: column;
 }
 
-    
 
+/*Los gif del index*/
 #fortnite
 {
-    width: 100px;
+    width: 450px;
     height: 230px;
     border-radius: 20px;
+    margin-left: 0px;
+    margin-bottom: 4%;
 }
 
 #sus
 {
-    margin-bottom: 100px;
     border-radius: 20px;
-    width: 20px;
-    height: 20px;
+    width: 450px;
+    height: 230px;
+    margin-left: 50px;
+    margin-bottom: 4%;
+    
 }
 
 
@@ -73,22 +79,101 @@ body {
 }
 
 
+/*Seleccion General*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-oscura {
+    background-color: #1b1b32;
+    color: white;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e43;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+/*Pie de pagina*/
+footer {
+    min-height: 500px;
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: black;
+  }
+  
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+  }
+
+
+
+
+
 @media (max-width: 700px) {
-    #txt-bienvenida{
-        font-size: 3.5rem;
-    }
-    .gif {
-        width: 150px;
-        height: 140px;
-    }
-    .figura {
-        flex-direction: column;
-    }  
-    .recuadro {
-        width: 80vw;
-        height: 25vh;
-        margin-bottom: 10px;
-    }
     .titulo {
         width: 100%;
         height: 100%;
@@ -97,5 +182,28 @@ body {
         align-items: center;
         flex-direction: column;
     }
+    
+    #txt-bienvenida{
+        font-size: 3.5rem;
+    }
+    .figura {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }  
+    
+    #fortnite {
+        width: 65vw;
+        height: 25vh;
+        margin-bottom: 25px;
+    }
+    #sus
+    {
+        width: 65vw;
+        height: 25vh;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    
     
 }
