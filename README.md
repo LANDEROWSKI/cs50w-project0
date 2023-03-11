@@ -1,3 +1,3 @@
 # web-project0
 Una página personal sobre mis gustos y otras cosas...
-agregar modificaciones
+agregar modificaciones.
